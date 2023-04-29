@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+    font-family: "Bree Serif", serif;
+}
+
+#stat {
+    border: 0px solid green;
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    /* gap: 30px; */
+    margin-top: 40px;
+    align-items: center;
+    padding: 30px;
+}
+#stat>div img{
+    margin: auto;
+    width: 100%;
+    border: 0px solid red;
+}
+.one {
+    width: 30%;
+    margin: auto;
+    border: 0px solid blue;
+
+    border-radius: 5px;
+}
+.two {
+    width: 30%;
+    margin: auto;
+    border: 0px solid blue;
+
+    border-radius: 5px;
+}
+.three {
+    width: 30%;
+    margin: auto;
+    border: 0px solid blue;
+    background-color: #fffefe;
+
+    border-radius: 5px;
+}
+#github {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #6f5a93;
+}
+
+@media all and (min-width: 768px) and (max-width: 1280px) {
+    #stat {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px 10px;
+    }
+}
+@media all and (min-width: 300px) and (max-width: 767px) {
+    #stat {
+        display: block;
+        gap: 40px;
+        width: 90%;
+        border: 0px solid green;
+    }
+    #github {
+    margin: auto;
+    width: 92%;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px solid #6f5a93;
+}
+.one {
+    width: 100%;
+    border: 0px solid blue;
+
+
+    border-radius: 5px;
+}
+.two {
+    width: 100%;
+    border: 0px solid blue;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.three {
+    width: 100%;
+    border: 0px solid blue;
+    background-color: #fffefe;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+}
