@@ -3,13 +3,12 @@ import React, { useEffect } from 'react'
 import style from "./About.module.css"
 
 import { FaDownload } from 'react-icons/fa'
-import AOS from "aos";
-import "aos/dist/aos.css"; 
+
 import { HiDownload } from 'react-icons/hi';
 
 
 
-AOS.init();
+
 export default function About({ colorMode }) {
   const openLink = (url) => {
     window.open(url);
@@ -22,9 +21,7 @@ export default function About({ colorMode }) {
       <div
         id="about"
         className="about section"
-        data-aos-mirror="true"
-        data-aos="fade-up"
-        data-aos-duration="3000"
+        
         
 
       >
@@ -33,15 +30,15 @@ export default function About({ colorMode }) {
           style={{ height: "100px", border: "0px solid blue", padding: "10px" }}
         ></div>
         <Heading
-          size={["xl", "xl", "xl", "xl"]}
+          size={"xl"}
           textAlign="center"
          
           fontFamily="Bree Serif, serif"
-          color={ "#BFACE0"}
+          color={ "white"}
         >
           About Me
         </Heading>
-        <div data-aos-mirror="true" data-aos="fade-up" data-aos-duration="3000">
+        <div >
           <div
             id={style.aboutDiv}
             color={colorMode === "light" ? "#4C3575" : "#BFACE0"}

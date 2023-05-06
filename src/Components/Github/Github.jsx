@@ -3,10 +3,7 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
 import style from './Github.module.css'
-import AOS from "aos";
-import "aos/dist/aos.css"; 
 
-AOS.init();
 const GitHub = ({ colorMode }) => {
   const github = {
     margin: "auto",
@@ -40,15 +37,13 @@ const GitHub = ({ colorMode }) => {
   return (
     <div
       className="github-main"
-      data-aos-mirror="true"
-      data-aos="fade-up"
-      data-aos-duration="3000"
+      
     >
       <Heading
         textAlign="center"
-        size={["2xl", "xl", "xl", "xl"]}
-        color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
+        size={"xl"}
         mb="50px"
+        color={"white"}
         fontFamily="Bree Serif, serif"
       >
         Github Calender
@@ -71,9 +66,7 @@ const GitHub = ({ colorMode }) => {
         <div
           className={style.one}
           fontFamily="Bree Serif, serif"
-          data-aos-mirror="true"
-          data-aos="fade-left"
-          data-aos-duration="3000"
+         
         >
           <Image
             id="github-streak-stats"
@@ -84,10 +77,7 @@ const GitHub = ({ colorMode }) => {
 
         <div
           className={style.two}
-          data-aos-mirror="true"
-          data-aos="fade-up"
-          fontFamily="Bree Serif, serif"
-          data-aos-duration="3000"
+          
         >
           <Image
             id="github-stats-card"
@@ -98,10 +88,7 @@ const GitHub = ({ colorMode }) => {
 
         <div
           className={style.three}
-          data-aos-mirror="true"
-          data-aos="fade-right"
-          fontFamily="Bree Serif, serif"
-          data-aos-duration="3000"
+         
         >
           <Image
             id="github-top-langs"

@@ -48,12 +48,13 @@
   font-size: 25px;
   font-family: "Bree Serif", serif;
   font-weight: bold;
-  color:#4c3575;
+  color:#295564;
 }
 
 .namep {
   font-size: 20px;
   padding-top: 20px;
+  color: white;
 }
 
 #resumeDiv {
@@ -61,7 +62,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 15px;
-  color: #fef5ed;
+  color: white;
   width: 25%;
   /* width: fit-content; */
   padding: 3px 10px 3px 10px;
@@ -71,16 +72,16 @@
   cursor: pointer;
   font-family: serif;
   margin-right: 100px;
-  background-color: #4c3575;
+  background-color: #295564;
 }
 #resumeDiv:hover {
-  background: rgb(121, 114, 232);
-  background: linear-gradient(
+   background: linear-gradient(
     90deg,
-    rgba(121, 114, 232, 1) 0%,
-    rgba(91, 91, 236, 1) 44%,
-    rgba(26, 150, 236, 1) 99%
-  );
+    #185d6a,
+    #365fb1, 
+    #27ba8c
+    );  
+ 
 }
 
 .resumeButton {
@@ -241,7 +242,7 @@
   }
 }
 #about section{
-  border: 0px solid red;
+  border: 0px solid red;
 
 
 }

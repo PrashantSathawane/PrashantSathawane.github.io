@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
 
-  background-color: #4c3575af;
+  background-color: #003140;
   backdrop-filter: blur(12px) saturate(180%);
   position: fixed;
   z-index: 100;
@@ -71,13 +71,14 @@
 
 .navbar-resume:hover {
   color: white;
-  background: rgb(121, 114, 232);
-  background: linear-gradient(
+  /* background: rgb(121, 114, 232); */
+   background: linear-gradient(
     90deg,
-    rgba(121, 114, 232, 1) 0%,
-    rgba(91, 91, 236, 1) 44%,
-    rgba(26, 150, 236, 1) 99%
-  );
+    #185d6a,
+    #365fb1, 
+    #27ba8c
+    );  
+  /* background: #0c6216; */
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;

@@ -2,10 +2,7 @@ import { Heading } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import style from "./Skills.module.css";
 
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init();
+
 export default function Skills({ colorMode }) {
   const skillsArray = [
     {
@@ -55,27 +52,17 @@ export default function Skills({ colorMode }) {
     },
     {
       id: "10",
-      name: "BootStrap",
-      logo: "https://cdn.dribbble.com/users/595/screenshots/14417863/bootstrap-new-logo_4x.png",
-    },
-    {
-      id: "11",
       name: "Github",
       logo: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
     },
 
     {
-      id: "13",
+      id: "11",
       name: "Typescript",
       logo: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
     },
     {
-      id: "14",
-      name: "Material UI",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlqqONFG6eDHvqXzF2HtmKQ3qDErVWjLTsSUpIiJGCtA&s",
-    },
-    {
-      id: "15",
+      id: "12",
       name: "vsCode",
       logo: "https://lh5.googleusercontent.com/5ES-Ty5oZV246Psq5ABbOGxOn3MN5piHduRfeQRlXNj3aAW32v7K9rHYaSqdvOjFFfQ=w2400",
     },
@@ -86,20 +73,18 @@ export default function Skills({ colorMode }) {
       <div id="Skills" style={{ height: "20px" }}></div>
       <div className="skills-card-name" id={style.skill}>
         <Heading
-          size={["xl", "xl", "xl", "xl"]}
+          size={"xl"}
           fontFamily="Bree Serif, serif"
-          style={{ color: colorMode === "light" ? "#4C3575" : "#BFACE0" }}
+          color={"white"}
           textAlign="center"
-          color="#243D25"
+         
         >
           Skills
         </Heading>
         <div
           className="skills-card"
           id={style.skillDiv}
-          data-aos-mirror="true"
-          data-aos="fade-up"
-          data-aos-duration="2000"
+          
         >
           {skillsArray.map((skill) => (
             <div key={skill.name} className={style.skill_in_div}>

@@ -9,12 +9,12 @@ import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import Skills from "./Components/Skills/Skills";
-import Project from "./Components/Project/Project";
+import Project from "./Components/projects/Projects";
 // import Static from "./Components/Static/Static";
 import GitHub from "./Components/Github/Github";
 
-import Footer from "./Components/Footer/Footer";
-import Contact from "./Components/Contact/Contact";
+// import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/contact/Contact";
 import BackToTop from "./Components/Home/BacktoTop";
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
           <GitHub colorMode={colorMode} />
           <Contact colorMode={colorMode} />
           <BackToTop />
-          <Footer colorMode={colorMode} />
+          {/* <Footer colorMode={colorMode} /> */}
       </div>
   );
 }

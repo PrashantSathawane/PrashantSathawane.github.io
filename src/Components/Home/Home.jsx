@@ -17,11 +17,11 @@ export default function Home({ colorMode }) {
           <div className={style.img_txt_wrapper}
             
           >
-            {/* <img
+            <img
               id={style.myImg}
-              src="https://cdnl.iconscout.com/lottie/premium/thumb/web-development-4099445-3420711.mp4"
+              src="code.gif"
               alt="logo"
-            /> */}
+            />
             <div id={style.myDetailsDiv}>
               <h1 id={style.myName}>
                 <span>
