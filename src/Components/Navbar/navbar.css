@@ -98,13 +98,13 @@
 
  .responce {
   border: 0px solid blue;
-  display: none;
+  /* display: none; */
 }
 
  @media all and (min-width: 768px) and (max-width: 1024px) {
-  .wrapperRight {
+  /* .wrapperRight {
       display: none;
-  }
+  } */
 
   .responce {
     margin-right: 40px;
@@ -141,9 +141,9 @@
   }
 }
  @media all and (min-width: 280px) and (max-width: 767px) {
-  .wrapperRight {
-     display: none;
-  }
+   /* .wrapperRight {
+      display: none; 
+  }  */
 
   .wrapper {
 

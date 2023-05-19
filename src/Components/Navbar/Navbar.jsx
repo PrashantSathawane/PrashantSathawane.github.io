@@ -12,6 +12,7 @@ import {
   DrawerCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
+import { Button } from "@mui/material";
 
 function Navbar() {
   const openLink = (url) => {
@@ -93,14 +94,15 @@ function Navbar() {
           </div>
           <div>
             <a
-              href="https://drive.google.com/uc?id=1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO&export=download"
+              href="https://drive.google.com/uc?id=1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1&export=download"
               className="nav-link resume"
               id="resume-link-1"
+              // https://drive.google.com/file/d/1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1/view?usp=share_link
             >
               <div
                 onClick={() =>
                   openLink(
-                    "https://drive.google.com/file/d/1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO/view?usp=share_link"
+                    "https://drive.google.com/file/d/1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1/view?usp=share_link"
                   )
                 }
                 className="navbar-resume"
@@ -175,8 +177,9 @@ function Navbar() {
                     </Link>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/uc?id=1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO&export=download">
-                      <div
+                   
+                      <Button
+                      id="resume-button-1"
                         className="navbar-resume"
                         onClick={() => {
                           onClose();
@@ -184,10 +187,12 @@ function Navbar() {
                             "https://drive.google.com/file/d/1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO/view?usp=share_link"
                           );
                         }}
+                       
                       >
+                         <a id="resume-link-1" href="https://drive.google.com/uc?id=1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO&export=download"></a>
                         Resume <HiDownload />
-                      </div>
-                    </a>
+                      </Button>
+                    {/* </a> */}
                   </div>
                 </div>
               </DrawerBody>
