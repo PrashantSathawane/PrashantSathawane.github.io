@@ -51,10 +51,10 @@ function Contact() {
         if (name !== "" || email !== "" || message !== "") {
             emailjs
                 .sendForm(
-                    "service_nkw8ti", //YOUR_SERVICE_ID
-                    "template_can7fv", //YOUR_TEMPLATE_ID
+                    "service_lr7wjj7", //YOUR_SERVICE_ID
+                    "template_t3n58pt", //YOUR_TEMPLATE_ID
                     e.target,
-                    "73_-qTWrUzxfELam" //YOUR_PUBLIC_KEY
+                    "lkMZcaU5zsO6RZ7D-" //YOUR_PUBLIC_KEY
                 )
                 .then(
                     (result) => {
