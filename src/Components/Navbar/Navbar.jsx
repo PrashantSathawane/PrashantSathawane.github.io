@@ -171,7 +171,7 @@ function Navbar() {
                     </Link>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/uc?id=1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO&export=download">
+                    <a href="https://drive.google.com/uc?id=1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1&export=download">
                       <div
                         className="navbar-resume"
                         onClick={() => {
