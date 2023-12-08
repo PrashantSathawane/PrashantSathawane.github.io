@@ -75,7 +75,7 @@ export default function About({ colorMode }) {
 
               <div
                 id={style.resumeDiv}
-                backgroundColor={ "#BFACE0"}
+                backgroundcolor={ "#BFACE0"}
               >
                 <a
                   id="resume-link-2"

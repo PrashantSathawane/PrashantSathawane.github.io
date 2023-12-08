@@ -11,7 +11,7 @@ function Projects() {
     };
     return (
         <div className="projects-projects" id="projects">
-            <div class="text-divider-project"></div>
+            <div className="text-divider-project"></div>
             <h1
 
                 className="projects-heading">

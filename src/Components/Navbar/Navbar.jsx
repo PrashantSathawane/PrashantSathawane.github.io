@@ -12,7 +12,6 @@ import {
   DrawerCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
-import { Button } from "@mui/material";
 
 function Navbar() {
   const openLink = (url) => {
@@ -23,14 +22,9 @@ function Navbar() {
     <div id="nav-menu" className="navbar">
       <div className="wrapper">
         <div className="wrapperLeft">
-          <Link
-            to="home"
-            smooth={true}
-            offset={-100}
-            duration={500}
-           
-          >
-            <img id="logo" 
+          <Link to="home" smooth={true} offset={-100} duration={500}>
+            <img
+              id="logo"
               src="https://cdn.dribbble.com/users/72227/screenshots/2595118/media/f082e58bc3e3e99f76f044f9ac4cab43.gif"
               alt="icon"
             />
@@ -177,9 +171,8 @@ function Navbar() {
                     </Link>
                   </div>
                   <div>
-                   
-                      <Button
-                      id="resume-button-1"
+                    <a href="https://drive.google.com/uc?id=1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO&export=download">
+                      <div
                         className="navbar-resume"
                         onClick={() => {
                           onClose();
@@ -187,12 +180,10 @@ function Navbar() {
                             "https://drive.google.com/file/d/1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO/view?usp=share_link"
                           );
                         }}
-                       
                       >
-                         <a id="resume-link-1" href="https://drive.google.com/uc?id=1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO&export=download"></a>
                         Resume <HiDownload />
-                      </Button>
-                    {/* </a> */}
+                      </div>
+                    </a>
                   </div>
                 </div>
               </DrawerBody>

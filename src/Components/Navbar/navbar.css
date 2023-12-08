@@ -2,7 +2,7 @@
   width: 100%;
 
   background-color: #003140;
-  backdrop-filter: blur(12px) saturate(180%);
+  /* backdrop-filter: blur(12px) saturate(180%); */
   position: fixed;
   z-index: 100;
   font-size: 18px;
@@ -91,7 +91,6 @@
 .wrapperRight a:hover {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-
   color: black;
   font-weight: bold;
 }

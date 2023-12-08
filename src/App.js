@@ -14,7 +14,7 @@ import Project from "./Components/projects/Projects";
 import GitHub from "./Components/Github/Github";
 
 // import Footer from "./Components/Footer/Footer";
-import Contact from "./Components/contact/Contact";
+import Contact from "./Components/Contact/Contact";
 import BackToTop from "./Components/Home/BacktoTop";
 
 function App() {

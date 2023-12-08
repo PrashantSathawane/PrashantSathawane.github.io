@@ -51,7 +51,7 @@ const GitHub = ({ colorMode }) => {
 
       <Box w="100%" style={github}>
         <GitHubCalendar
-          class="react-activity-calendar"
+          className="react-activity-calendar"
           fontFamily="Bree Serif, serif"
           style={{ margin: "auto", color: "#4C3575" }}
           username="PrashantSathawane"
