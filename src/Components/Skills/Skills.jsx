@@ -2,7 +2,6 @@ import { Heading } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import style from "./Skills.module.css";
 
-
 export default function Skills({ colorMode }) {
   const skillsArray = [
     {
@@ -33,7 +32,8 @@ export default function Skills({ colorMode }) {
     {
       id: "6",
       name: "MongoDB",
-      logo: "https://newrelic.com/sites/default/files/styles/800w/public/2021-10/mongo_logo.jpg?itok=Z1PabBZB",
+      logo: "https://imgs.search.brave.com/yg5NEtspYz_g_l84TkWGUvyOSkBgLPp6TCw4lfwebr0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2xvZ28tbW9u/Z29kYi1wbmctaHVu/ZHJlZHMtb2YtcG9w/dWxhci1tb25nb2Ri/LWFydGljbGVzLTQw/MC5wbmc",
+      // logo: "https://newrelic.com/sites/default/files/styles/800w/public/2021-10/mongo_logo.jpg?itok=Z1PabBZB",
     },
     {
       id: "7",
@@ -77,15 +77,10 @@ export default function Skills({ colorMode }) {
           fontFamily="Bree Serif, serif"
           color={"white"}
           textAlign="center"
-         
         >
           Skills
         </Heading>
-        <div
-          className="skills-card"
-          id={style.skillDiv}
-          
-        >
+        <div className="skills-card" id={style.skillDiv}>
           {skillsArray.map((skill) => (
             <div key={skill.name} className={style.skill_in_div}>
               <div className="skills-card-img" data-aos="">
