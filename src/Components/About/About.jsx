@@ -80,9 +80,11 @@ export default function About({ colorMode }) {
                 <a
                   id="resume-link-2"
                   className={style.resumeButton}
-                  href="https://drive.google.com/uc?id=1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1&export=download"
+                  href="https://drive.google.com/uc?id=1U6UL1_D01qcpyW96tJZlolMSdQ3KWlOo&export=download"
                   // download="Prashant_sathawane_Resume"
                 >
+                  {/* https://drive.google.com/uc?id=1U6UL1_D01qcpyW96tJZlolMSdQ3KWlOo&export=download */}
+                  {/* https://drive.google.com/file/d/1U6UL1_D01qcpyW96tJZlolMSdQ3KWlOo/view?usp=drive_link */}
                   <div
                     style={{
                       border: "0px solid green",
@@ -91,7 +93,7 @@ export default function About({ colorMode }) {
                     }}
                     onClick={() =>
                       openLink(
-                        "https://drive.google.com/file/d/1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1/view?usp=share_link"
+                        "https://drive.google.com/file/d/1U6UL1_D01qcpyW96tJZlolMSdQ3KWlOo/view?usp=drive_link"
                       )
                     }
                     // className="home-resume"

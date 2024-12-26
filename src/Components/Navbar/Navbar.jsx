@@ -88,15 +88,15 @@ function Navbar() {
           </div>
           <div>
             <a
-              href="https://drive.google.com/uc?id=1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1&export=download"
+              href="https://drive.google.com/uc?export=download&id=1U6UL1_D01qcpyW96tJZlolMSdQ3KWlOo"
               className="nav-link resume"
               id="resume-link-1"
-              // https://drive.google.com/file/d/1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1/view?usp=share_link
+            // https://drive.google.com/file/d/1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1/view?usp=share_link
             >
               <div
                 onClick={() =>
                   openLink(
-                    "https://drive.google.com/file/d/1Fykv2_wQaEX4fF8Aue7_Lxu1fGNGBKK1/view?usp=share_link"
+                    "https://drive.google.com/file/d/1U6UL1_D01qcpyW96tJZlolMSdQ3KWlOo/view?usp=drive_link"
                   )
                 }
                 className="navbar-resume"
